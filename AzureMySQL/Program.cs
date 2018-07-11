@@ -8,7 +8,7 @@ namespace AzureMySQL
     {
         static void Main(string[] args)
         {
-            string connectionString = "server=mysql-amit.mysql.database.azure.com;uid=amit@mysql-amit;pwd=Password@123;database=employee";
+            string connectionString = "server=<server name>.mysql.database.azure.com;uid=<userid>;pwd=<password>;database=employee";
 
             try
             {
